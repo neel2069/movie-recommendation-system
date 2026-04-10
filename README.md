@@ -1,19 +1,23 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 
-A content-based movie recommendation system built with Python and Streamlit.
+A content-based movie recommendation system built using Python, Streamlit, and TMDB API.
 
 ## Features
-- Recommends movies based on genre and description similarity
-- Simple and interactive UI
-- Built with TF-IDF and Cosine Similarity
 
-## How to Run
-1. Clone the repo
-2. Install dependencies: pip install -r requirements.txt
-3. Run: streamlit run app.py
+- Recommend similar movies
+- Display movie posters
+- Show ratings and overview
+- Fast search using machine learning
 
-## Tech Stack
+## Technologies Used
+
 - Python
 - Streamlit
 - Scikit-learn
 - Pandas
+- TMDB API
+
+## How to Run
+
+```bash
+streamlit run app.py
